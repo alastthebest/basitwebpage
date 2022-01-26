@@ -1,0 +1,170 @@
+body {
+    background: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMSEhUSEhMWFRUVFRoVFRUVGBgVFRUVFRcZFxUVFRUYHSggGBolHRcVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NDw0NDysZFRktNysrLSs3LTctKysrKysrKysrLTc3Ky0rKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIALEBHAMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQIH/8QAJRABAAMAAQMFAQEAAwAAAAAAAAER8JEhobExQWFxgQJREuHx/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDtPVbQVC1lLAXeS03k26Atlou3QC9RZG1G3QCJ1LH9bhN4+DePgFtLNugC2XuUo3kFmdyWizO5AssssC9wXuDeADeAjdigDeQrcgFFfBXxuoFBRQESqUATuwRG4P8AjuAF/lK3C/yDKL+JIErSWAtFFoDSJa38AB+boXuAIN4L+CwAssBUvclgu8m8pZYKFgF7gS9wAsAACbyAoACLvAAixuxvAIKAjX8sysAzZMkgG9ze5CgEkAIpJQEbsEEARuxe4I3Y3gCy9YALO7ou8gk/ZvKgAAFbgpN4KBaKSiYBZ3cSiYBaKSgF3grcIVuAWN2K3CRBQKJRMAqxDNKgxO7LZKKLKooCLG7IBt1VFgE3qtayACN2N4S1A3qIoCzu6WSB13/h13/he0G3QFEAOu/CyACy9ytpM/YLM7kmdpL2lJnaQWSJ2lf69UsDeDePkvcF7SBE7SJf2tgWTO5JksEvc/K7dU3leQZlUkkA26gC7dUjevwsQAbwb3VAAJAkKAJnchQABvAG8fBE7QKCbx8G3RSgQWd3ATeRQE26m3Vd4AN4LAEtbN5AJN5JSYAmdyTK0lAsTtKwkQsAxO6fZvRP6JsF3oRuhKCLWr6+CN0+iyJ3AofqlgElkyCTu6zG5N5JncgUEyb1Ar6ONRe0Fgbwb1+i9wRO4A3r/wBm9S9wAs7r9m8oTu4LRSbyTHwC1uCtwFAVuDboRHxuiVuAWlrcs9P8UCYN5EkFmCIlJ3c/AaX+WSAZlUiPha+AN5N7k7uV8bqAFfBQG8EbsfhEAFlAE7uTu5JO7gAAKhO7AAoJvC7wURG4AJjcpW4AK3K0UVuQWikrcgKVuEoApaStwApKUAVuSjeSY3IFLEJO7kAzX1qSvpd7l7qCLxrN7m9wJ3cJAJIlbASCCF3gEWSI3CWCgQCRuq71P0A3qbyfu6n7uoHK2lALG7Jvb4I3ZanfgG9iyIAS9yTO5WQEtbJLAI3YIAg3gg3gCy0AWd3L3RFBn/kk/wBKAl/etYkAJkskrcgBSgQRO4ADeEhfwjdgAgAWd3T8AN5Xen2hW5Bd6Faid3AN4StwpvAJwUsbscgV9aytyhQEwtExuTeQKK+tQAkQsR9aiiIAr6K+l3hIjcAlfR/x+iGogGErdSJX8BN6rvUJkCd1J3UmSwN6k7uWAE7qWR9AEESRuwELG7JBYCgBvYACY3JO7klAtJS2AkbssbsQbwAqbwAATAEzuSSd3AAAAI3YCL341/LEbs1/IMyXtKEgqBAEklkbsBer/pUjal26ARuiG3Q26AQXqNuht0BRJ2o26AthZYIsl6y90BL+lv6L3Qjenx8gLZO7FgX9BvIBvBvAQBCpW4N4AlKJjURGoFQiNX0RGr6A3gKKAWEmNysA2SAMkewAqQANSz/oAST6gBKTu4AbysgAQAHuQAG8G8AB7sz6ACxu5KgMn8+2/wAAD/N/i/zuygEMxu6gG8EACsgCzu5CgP/Z');
+    background-size: 500px;
+    color: #000;
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    color: #909090;
+    text-decoration: none;
+}
+
+a:active {
+    color: red;
+}
+
+section {
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    height: 100%;
+}
+
+.desc {
+    position: absolute;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    bottom: 0;
+}
+
+.cdesc {
+    padding: 20px;
+}
+
+.content {}
+
+.menu {
+    background-color: #f6f6f6;
+}
+
+
+/*menu*/
+
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+}
+
+ul>li {
+    display: inline-block;
+    line-height: 2.5;
+    padding: 3px 15px;
+    text-transform: uppercase;
+}
+
+li:hover {
+    background: #03A9F4;
+}
+
+li:hover>a {
+    color: #fff;
+}
+
+.home {
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.cpadding {
+    position: relative;
+    padding: 10px;
+}
+
+.box {
+    background-color: #f6f6f6;
+    border-left: 5px solid #03A9F4;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.sbox {}
+
+.text {
+    color: #757575;
+    font-style: italic;
+    display: inline-block;
+}
+
+.signature {
+    background: url(signature.png);
+    position: relative;
+    width: 124px;
+    height: 51px;
+    background-size: cover;
+    margin: auto 0 -32px auto;
+}
+
+.buttons {
+    position: absolute;
+    padding-top: 20px;
+}
+
+.buttons>a {
+    color: #03a9f4;
+}
+
+.buttons>a:hover {
+    color: #fff;
+}
+
+.button {
+    border-radius: 4px;
+    border: 2px solid #03A9F4;
+    padding: 5px 10px;
+    margin: 3px;
+}
+
+.button>i {
+    width: 12px;
+}
+
+.button:hover {
+    background-color: #03a9f4;
+}
+
+.social {
+    text-align: right;
+    padding-top: 10px;
+}
+
+.social>a>i {
+    padding: 5px 10px;
+    font-size: 16px;
+    border: 2px solid #fff;
+    width: 14px;
+    text-align: center;
+    line-height: 24px;
+    border-radius: 50%;
+    color: #9b9b9b;
+}
+
+.social>a>i:hover {
+    border: 2px solid #9b9b9b;
+    transition: all .2s;
+}
+
+.row {
+    width: 50%;
+    display: inline-block;
+    float: left;
+    font-style: normal;
+    line-height: 2.3;
+}
+
+.info1 {
+    width: 30%;
+    display: inline-block;
+    font-weight: bold;
+    color: #000;
+}
